@@ -1,33 +1,84 @@
-.App {
+.App{
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+/*remember to add fontfamily bilabong and add it to heading here */
+h1{
+  font-family: 'Sofia', cursive;
+  font-size: 5rem;
+  font-weight: 200;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.photogrid{
+  max-width: 1000px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.figure{
+  border: 1px solid #d3d3d3;
+  flex-grow: 1;
+  margin: 0 2rem 2rem 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.photo{
+width: 400px;
+height: 400px;
 }
+
+.remove-container{
+  display: flex;
+  justify-content: center;
+}
+
+.remove-button{
+  flex-basis: 48%;
+  color: red;
+  font-size: 15px;
+  border: 2px solid #f2f2f2;
+  line-height: 2;
+  padding: 5px;
+}
+
+.AddMore-Container{
+  margin: 3rem;
+}
+
+.addpic{
+  font-size: 50px;
+  color: black;
+  background-color: white;
+}
+
+.form-box{
+  background-color: #f2f2f2;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+form input{
+  margin-bottom: 1rem;
+  width: 80%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.form-button{
+padding-left: 40%;
+padding-right: 40%;
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 15px;
+font-weight: bolder;
+color: white;
+background-color: rgb(6, 206, 6);
+border: 1px solid rgb(6, 206, 6);
+margin-top: 10px;
+}
+
